@@ -74,7 +74,7 @@ function test(text) {
 
 //Fibo
 function fibo(n){
-  if(n > 15) return "NUMBER TOO BIG!"
+  if(n > 15 || n < 0) return "please choose a number between 0 and 15";
   if(n == 0) return 1;
   else if(n == 1) return 1;
   else return fibo(n - 1) + fibo(n - 2);
