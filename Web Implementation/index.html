@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sample Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body id="dropZone">
+    <div class="page-content">
+      <div class="container">
+        <section class="option">
+          <p>MSUBears</p>
+          <button onclick="MSUBears()">Click here</button>
+        </section>
+        <section class = "option">
+          <div>
+            <p>ReadFile</p>
+            <p class="instructions">Drag a file anywhere on the screen</p>
+          </div>
+        </section>
+        <section class="option">
+          <p>Fibo</p>
+          <input id="n-holder" name="n-val" type="number" value="5" max="15" min="0"></input>
+          <button onclick="fiboHelper()">Click here</button>
+        </section>
+      </div>
+      <script src = "index.js"></script>
+
+      <div class = "container result-container">
+        <p id="results"></p>
+      </div>
+    </div>
+
+  </body>
+</html>

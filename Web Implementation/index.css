@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #aaaaaa;
+  height: 100vh;
+  width: 100vw;
+}
+
+p {
+  color: navy;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+input {
+  border-radius: 7px;
+  background: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: #232323;
+  border: none;
+  color: #eeeeee;
+  padding 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.page-content {
+  opacity: .65;
+  height: 100vh;
+  overflow: auto;
+  background: #85dcbb;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  opacity: 1;
+}
+
+.option {
+  padding: 5em;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.instructions {
+  font-size: 1em;
+  letter-spacing: normal;
+
+}
